@@ -6,24 +6,48 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <!-- Since this has only one attribute... I will not return with a new line. -->
-    <article class="card">
-      <h1 class="card__name">
-        Jason Vanderslice
-      </h1>
-      <img
-        src="http://i.huffpost.com/gen/1514054/images/o-LEGO-facebook.jpg"
-        alt="A portrait of Jason Vanderslice"
-        class="card__image">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam placeat deleniti labore incidunt aliquam nisi! Similique, accusantium voluptates pariatur necessitatibus esse illum dicta quos. Inventore ipsam quae impedit dolor saepe.
-      </p>
-      <a
-        href="#"
-        class="link--red
-               card__button">
-        More about Jason and all the things he likes to do
-      </a>
-    </article>
+    <section class="cards">
+      <!-- Since this has only one attribute... I will not return with a new line. -->
+      <article class="card">
+        <h2 class="card__name">
+          Jason Vanderslice
+        </h2>
+        <img
+          src="http://i.huffpost.com/gen/1514054/images/o-LEGO-facebook.jpg"
+          alt="A portrait of Jason Vanderslice"
+          class="card__image">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam placeat deleniti labore incidunt aliquam nisi! Similique, accusantium voluptates pariatur necessitatibus esse illum dicta quos. Inventore ipsam quae impedit dolor saepe.
+        </p>
+        <a
+          href="#"
+          class="card__button
+                 link--red">
+          More about Jason and all the things he likes to do
+        </a>
+      </article> <!-- Ends "card" -->
+
+      <article class="card">
+        <h2 class="card__name">
+          Han Vanderslice
+        </h2>
+        <img
+          src="http://i.huffpost.com/gen/1514054/images/o-LEGO-facebook.jpg"
+          alt="Lego person in CAD"
+          class="card__image">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque animi quidem consequuntur accusantium aperiam at dolor, adipisci odit, dicta illo sint sed, blanditiis dolorem. Recusandae voluptatum nostrum dicta voluptatibus ullam.
+        </p>
+        <!--
+          Shortcut to have element AND class be "auto expanded with ATOM..."
+          `a.link--red.button` and then press TAB
+        -->
+        <a href=""
+           class="card__button
+                  link--red">
+          Learn more about Han
+        </a>
+      </article>
+    </section> <!-- Ends "cards" -->
   </body>
 </html>

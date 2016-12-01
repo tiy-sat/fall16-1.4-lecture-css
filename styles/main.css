@@ -10,6 +10,11 @@ body {
 
 .card {
   width: 400px;
+  /* We have to use `inline-block` because `inline` display does not accept `width` as a property */
+  display: inline-block;
+  /*
+  Vertical aligning will allow us to overcome alignment issues with `display: inline-block`. */
+  vertical-align: top;
 }
 
 .card__button {
