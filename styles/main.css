@@ -20,6 +20,7 @@ body {
 .card__button {
   background-color: grey;
   border-radius: 4px;
+  display: block;
   /*
     Long form padding
       padding-left: 20px;
@@ -33,6 +34,10 @@ body {
     Second value: Left, Right...
   */
   padding: 10px 20px;
+  /*
+    This will only work inside of a set width element (not an `inline` one) 
+  */
+  text-align: center;
   text-decoration: none;
 }
 
