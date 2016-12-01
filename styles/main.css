@@ -12,6 +12,25 @@ body {
   width: 400px;
 }
 
+.card__button {
+  background-color: grey;
+  border-radius: 4px;
+  /*
+    Long form padding
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  */
+
+  /*
+    First value: Top, Bottom...
+    Second value: Left, Right...
+  */
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
 .card__image {
   /* Using a "relative width" */
   width: 100%;
