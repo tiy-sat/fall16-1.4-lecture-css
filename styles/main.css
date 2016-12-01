@@ -1,1 +1,23 @@
 /* Main style file */
+
+/* Inheritance is GREAT... but when we have elements that are specified it will override this. */
+
+body {
+  /* Most properties involving `FONT-` are inherited by child(ren) elements */
+  font-family: Helvetica;
+  color: darkgrey;
+}
+
+.card {
+  width: 400px;
+}
+
+.card__image {
+  /* Using a "relative width" */
+  width: 100%;
+}
+
+/* Overriding the default browser styles for "a" tags... this class selector is *more* specific. */
+.link--red {
+  color: darkred;
+}
